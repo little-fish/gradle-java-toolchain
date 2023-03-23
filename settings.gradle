@@ -1,0 +1,9 @@
+pluginManagement {
+    includeBuild('plugin-java-toolchain-resolver')
+}
+
+plugins {
+    id('java-toolchain-resolver')
+}
+
+include('some-project')

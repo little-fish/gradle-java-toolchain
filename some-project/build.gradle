@@ -1,0 +1,10 @@
+plugins {
+    id('java')
+}
+
+java {
+    toolchain {
+        // Be sure to set it to something you do not have available.
+        languageVersion = JavaLanguageVersion.of(3)
+    }
+}
